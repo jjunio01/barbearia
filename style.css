@@ -1,0 +1,48 @@
+header {
+    background: rgba(83,127,102, 0.6);
+}
+.logo {
+    width: 250px;
+}
+
+.menu-principal {
+    position: fixed;
+    top: 125px;
+    right: 50px;
+}
+
+.menu-principal a {
+    color: whitesmoke;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 10px 10px 10px 5px #c21d1d;
+    font-weight: bold;
+    transition: 700ms all;
+}
+
+.menu-principal li:hover , a:hover{
+    
+    color: #060606;
+    text-shadow: -2px 2px 2px #060606;
+    transform: scale(1.1);
+    
+}
+
+.lista-menu {
+    display: inline-flex;
+}
+
+.lista-menu li {
+    margin-left: 12px;
+}
+
+main img {
+    width: 100%;
+}
+
+
+footer {
+    margin: 20px 0 20px 0;
+    background: rgba(253,253,253, 0.4);
+    text-align: center;
+}
