@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/reset.css">
     <link rel="stylesheet" href="/styles/style.css">
-    <title>Home</title>
+    <link rel="stylesheet" href="/styles/style-agendamento.css">
+    <title>Agendamento</title>
 </head>
 <body>
     <header>
@@ -18,7 +19,7 @@
                     <a href="index.html">Home</a>
                 </li>
                 <li>
-                   <a href="agendamento.html">Agendamento</a> 
+                   <a href="">Agendamento</a> 
                 </li>
                 <li>
                     <a href="localizacao.html">Localização</a>
@@ -33,8 +34,34 @@
         </nav>
 
     </header>
-    <main>
-        <img src="/assets/banner.png" alt="Imagem de um homem fazendo a barba">
+    <main class="agendamento">
+        <p>Realize o seu cadastro para efetuar seu agendamento de forma fácil e simples</p>
+    
+        <a href="cadastro.html">Cadastra-se</a>
+
+        <table class="tabela-horarios">
+            <caption>Nossos horários</caption>
+            <thead>
+                <tr>
+                    <th>Manhã</th>
+                    <th>Tarde</th>
+                    <th>Noite</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>08h ~ 11h</td>
+                    <td>12h ~ 17h</td>
+                    <td>19h ~ 21h</td>
+                </tr>
+
+            </tbody>
+            <tfoot>
+                <p>
+                    Disponível sempre que você precisa
+                </p>
+            </tfoot>
+        </table>
     </main>
 
     <footer>

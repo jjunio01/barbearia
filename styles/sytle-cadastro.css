@@ -1,9 +1,40 @@
-label {
-    display: block;
-    font-size: 20px;
-    margin: 0 0 10px;
+.fieldset-form p{
+    margin: 15px 0;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: #537F66;
+    text-transform: uppercase;
+    
 }
 
-fieldset {
-    border: 2px #537F66 solid ;
+.fieldset-form {
+    margin-top: 10px;
+    border: #537F66 solid;
 }
+
+.fieldset-form label{
+    
+    margin-bottom: 10px;
+    display: block;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.fieldset-form input {
+    margin-left: 10px;
+}
+.container {
+    margin: 10px;
+    padding: 5px;
+}
+
+.button {
+    border-radius: 8px;
+    transform: scale(1.2);
+    color: #537F66;
+    text-transform: uppercase;
+    
+}
+

@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="/styles/reset.css">
     <link rel="stylesheet" href="/styles/style.css">
     <link rel="stylesheet" href="/styles/sytle-cadastro.css">
-    <title>Home</title>
+    <title>Cadastro</title>
 </head>
 <body>
     <header>
@@ -36,30 +36,31 @@
     </header>
     <main>
         <form class="formulario-cadastrp" action="" method="get">
-
-            <fieldset>
-                <label>
-                    Nome
-                    <input id="nome" type="text" required>
-                </label>
-                <label>
-                    Telefone
-                    <input type="tel" id="telefone" required>
-                </label>
-                <label>
-                    CPF
-                    <input type="text" id="cpf" required>
-                </label>
-                <label>
-                    Endereço
-                    <input type="text" id="endereco" required>
-                </label>
-                <label>
-                    E-mail
-                    <input type="email" id="email" required>
-                </label>
-
-                <button>Enviar</button>
+            <fieldset class="fieldset-form">
+                <p>Cadastre-se</p>
+                <div class="container">
+                    <label>
+                        Nome:
+                        <input id="nome" type="text" required placeholder="Nome completo">
+                    </label>
+                    <label>
+                        Telefone:
+                        <input type="tel" id="telefone" required placeholder="(99) 99999-9999">
+                    </label>
+                    <label>
+                        CPF:
+                        <input type="text" id="cpf" required placeholder="000.000.000-00">
+                    </label>
+                    <label>
+                        Endereço:
+                        <input type="text" id="endereco" required>
+                    </label>
+                    <label>
+                        E-mail:
+                        <input type="email" id="email" required placeholder="seuemal@dominio.com.br">
+                    </label>
+                    <button class="button">Enviar</button>
+                </div>
             </fieldset>
          
         </form>
