@@ -1,0 +1,10 @@
+.agendamento {
+    margin: 10px;
+    text-align: center;
+}
+
+.agendamento a {
+  
+    text-transform: uppercase;
+    color: #537F66;;
+}

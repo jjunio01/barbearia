@@ -1,5 +1,5 @@
 header {
-    background: rgba(83,127,102, 0.6);
+    background: #060606;
     height: 100px;
 }
 .logo {
@@ -24,7 +24,7 @@ header {
 
 .menu-principal li:hover , a:hover{
     
-    color: #060606;
+    color: #537F66;
     text-shadow: -2px 2px 2px #060606;
     transform: scale(1.1);
     
@@ -45,7 +45,7 @@ main img {
 
 footer {
     margin: 20px 0 20px 0;
-    background: rgba(253,253,253, 0.4);
+    background: rgba(253,253,253);
     text-align: center;
 }
 

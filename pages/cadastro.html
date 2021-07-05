@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/sytle-cadastro.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <header>
+
+        <img class="logo" src="/assets/logo.png" alt="Logomarca">
+
+        <nav class="menu-principal">
+            <ul class="lista-menu">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                   <a href="">Agendamento</a> 
+                </li>
+                <li>
+                    <a href="localizacao.html">Localização</a>
+                </li>
+                <li>
+                    <a href="">Contato</a>
+                </li>
+                <li>
+                    <a href="sobre.html">Sobre</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <form class="formulario-cadastrp" action="agendamento.html" method="get">
+            <fieldset class="fieldset-form">
+                <p>Cadastre-se</p>
+                <div class="container">
+                    <label>
+                        Nome:
+                        <input id="nome" type="text" required placeholder="Nome completo">
+                    </label>
+                    <label>
+                        Telefone:
+                        <input type="tel" id="telefone" required placeholder="(99) 99999-9999">
+                    </label>
+                    <label>
+                        CPF:
+                        <input type="text" id="cpf" required placeholder="000.000.000-00">
+                    </label>
+                    <label>
+                        Endereço:
+                        <input type="text" id="endereco" required>
+                    </label>
+                    <label>
+                        E-mail:
+                        <input type="email" id="email" required placeholder="seuemal@dominio.com.br">
+                    </label>
+                    <button class="button">Enviar</button>
+                </div>
+            </fieldset>
+         
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; Copyright Barbearia - 2021 </p>
+    </footer>
+</body>
+</html>
