@@ -1,10 +1,59 @@
-.agendamento {
-    margin: 10px;
-    text-align: center;
+main {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: linear-gradient(#FFBF00, #537F66);
 }
 
-.agendamento a {
-  
+.container {
+    padding: 10px;
+    width: 940px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container p {
+    font-size: 1.4em;
+}
+
+.container a {
+    margin: 5px 0 5px 0;
     text-transform: uppercase;
     color: #537F66;;
+    text-decoration: none;
+    transition: 550ms;
+    font-size: 1.3em;
+}
+
+.container a:hover {
+    transform: scale(1.6em);
+    color: #060606;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+caption {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.tabela-horarios {
+    display: block;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.tabela-horarios td, tr, th {
+    margin: 5px;
+    border: 1px solid #ffbf00
+}
+
+footer {
+    background: #537F66;
 }
