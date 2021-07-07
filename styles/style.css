@@ -1,15 +1,20 @@
+
 header {
-    background: linear-gradient(#060606 50%, #C78C19);
-    height: 200px;
+    height: 100px;
+    background-color: #3d405b;
+    
 }
 .logo {
-    width: 180px;
+    margin-top: 15px;
+    width: 50px;
+   
+
     margin-left: 45px;
 }
 
 .menu-principal {
     position: absolute;
-    top: 100px;
+    top: 47px;
     right: 70px;
 }
 
@@ -38,19 +43,16 @@ header {
 }
 
 .imagem-principal {
-    width: 940px;
-    margin: 0px auto;
-    padding-top: 15px;
-}
-main img {
+    padding: 0;
     width: 100%;
+    height: 600px;
+    background: no-repeat center/cover url(/assets/banner.jpg);
 }
-
 
 footer {
     padding-top: 20px;
     padding-bottom: 20px;
-    background: #C78C19;
+    background-color: #3d405b;
     text-align: center;
     word-wrap:break-word;
 }

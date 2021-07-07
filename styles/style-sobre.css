@@ -1,13 +1,35 @@
 
-.textos-imagem, titulo {
+
+.titulo-sobre{
+    
     letter-spacing: 1px;
     color: #ffbf00;
-    font-size: 25px;
+    font-size: 35px;
     position: absolute;
-    margin-top: 220px;
-    margin-left: 730px;
+    margin-top: 160px;
+    margin-left: 890px;
     margin-right: 200px;
     
+}
+
+.paragrafo-sobre {
+
+    letter-spacing: 1px;
+    color: #ffbf00;
+    font-size: 27px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 730px;
+    margin-right: 150px;
+    
+}
+
+.botao-sobre {
+    position: absolute;
+    margin-top: 340px;
+    margin-left: 870px;
+    margin-right: 200px;
+    border-radius: 15px;
 }
 
 .imagem-salao {
@@ -17,94 +39,7 @@
     background: no-repeat center/cover url(/assets/Home-Nova-min.jpg);
 }
 
-.titulo-icons {
-    position: absolute;
-    margin-top: 40px;
-    margin-left: 600px;
-    font-size: x-large;
 
-}
-.icon-cabelo {
-
-    width: 122px;
-    height: 117px;
-    margin-top: 30%;
-}
-
-.icon-barba {
-
-    
-    width: 122px;
-    height: 117px;
-    margin-top: 30%;
-
-}
-
-.icon-game {
-
-    width: 122px;
-    height: 117px;
-    margin-top: 30%;
-
-}
-
-
-.icon-bebida {
-
-    width: 122px;
-    height: 117px;
-    margin-top: 30%;
-
-}
-
-.icon-noivo {
-
-    width: 122px;
-    height: 117px;
-    margin-top: 30%;
-
-}
-
-.produtos {
-	width: 940px;
-	margin: 0 auto;
-	padding: 50px 0;
-}
-
-.produtos li {
-	display: inline-block;
-	text-align: center;
-	width: 25%;
-	vertical-align: top;
-	margin: 20px 1.5%;
-	padding: 30px 20px;
-	box-sizing: border-box;
-	border: 2px solid #000000;
-	border-radius: 10px;
-}
-
-.produtos li:hover {
-	border-color: #C78C19;
-}
-
-.produtos li:active {
-	border-color: #088C19;	
-}
-
-.produtos li:hover h2 {
-	font-size: 34px;
-}
-
-.produtos h2 {
-	font-size: 30px;
-	font-weight: bold;
-}
-
-.produto-preco {
-	font-size: 22px;
-	font-weight: bold;
-	margin-top: 10px;
-}
 
 
 
