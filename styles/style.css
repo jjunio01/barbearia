@@ -1,16 +1,16 @@
 header {
     background: #060606;
-    height: 100px;
+    height: 200px;
 }
 .logo {
-    width: 110px;
+    width: 180px;
     margin-left: 45px;
 }
 
 .menu-principal {
     position: absolute;
-    top: 45px;
-    right: 50px;
+    top: 100px;
+    right: 70px;
 }
 
 .menu-principal a {
