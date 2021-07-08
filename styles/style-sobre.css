@@ -3,7 +3,7 @@
 .titulo-sobre{
     
     letter-spacing: 1px;
-    color: #ffbf00;
+    color: #FDFDFD;
     font-size: 35px;
     position: absolute;
     margin-top: 160px;
@@ -15,7 +15,7 @@
 .paragrafo-sobre {
 
     letter-spacing: 1px;
-    color: #ffbf00;
+    color: #FDFDFD;
     font-size: 27px;
     position: absolute;
     margin-top: 200px;
