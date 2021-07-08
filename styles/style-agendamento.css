@@ -1,12 +1,10 @@
 main {
     align-items: center;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    background: linear-gradient(#FFBF00, #537F66);
 }
-
 .container {
     padding: 10px;
     width: 940px;
@@ -19,6 +17,8 @@ main {
 
 .container p {
     font-size: 1.4em;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .container a {
@@ -37,6 +37,12 @@ main {
     text-decoration: underline;
 
 }
+.container img {
+    width: 250px;
+    height: 250px;
+    
+}
+
 caption {
     text-transform: uppercase;
     font-weight: bold;
@@ -52,8 +58,4 @@ caption {
 .tabela-horarios td, tr, th {
     margin: 5px;
     border: 1px solid #ffbf00
-}
-
-footer {
-    background: #537F66;
 }
