@@ -6,7 +6,7 @@ for (let index = 0; index < meuLink.length; index++) {
 }
 
 function alterarCor() {
-    this.style.color = 'red';
+    this.style.color = '#ffbf00';
     this.style.fontSize = '22px';
 }
 
