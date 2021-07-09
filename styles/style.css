@@ -24,13 +24,7 @@ header {
     text-shadow: 10px 10px 10px 5px #c21d1d;
     font-weight: bold;
     transition: 700ms all;
-}
-
-.menu-principal li:hover , a:hover{
-    
-    color: #ffbf00;
-    transform: scale(1.1);
-    
+    font-size: 16px;
 }
 
 .lista-menu {
