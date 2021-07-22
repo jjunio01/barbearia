@@ -42,7 +42,7 @@
 
     </header>
     <main>
-        <form class="formulario-cadastro" action="../index.html" method="get">
+        <form class="formulario-cadastro" action="../index.html" method="get" ">
             <fieldset class="fieldset-form">
                 <p>Cadastre-se</p>
                 <div class="container">
@@ -67,7 +67,7 @@
                         <input type="email" id="email" required placeholder="seuemal@dominio.com.br">
                     </label>
                     <div class="botao">
-                   <button class="button">Enviar!</button>
+                   <button onclick="validarTelefone()" class="button">Enviar!</button>
                     </div>
                 </div>
             </fieldset>
@@ -79,5 +79,6 @@
         <p>&copy; Copyright Barbearia - 2021 </p>
     </footer>
     <script src="../scripts/detalhamento.js"></script>
+    <script src="../scripts/validacao-telefone.js"></script>
 </body>
 </html>
